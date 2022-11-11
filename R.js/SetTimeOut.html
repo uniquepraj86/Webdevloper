@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#set{
+    border: 1px double red;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+    /* margin: 200px; */
+    margin-left: 500px;
+    padding: 30px;
+}
+</style>
+<body>
+    <!-- <div>
+        <h1 id="set"> SetTimeout </h1>
+        <button onclick="setTimeout(code())"> Time</button>
+    </div>
+    -->
+    <button onclick="xyz()"> change</button>
+
+</body>
+<script>
+    // function code(){
+    //     let fun=document.getElementById("set")
+    //     fun.innerHTML="Hello";
+    // }
+    function xyz()
+    {
+       setTimeout(console.log("Hello"),1000);  
+    }
+    setTimeout(()=>{
+        console.log("vidya")
+    },3000)
+    setTimeout(()=>{
+        console.log("pooja")
+    },4000)
+    setTimeout(()=>{
+        console.log("praj")
+    },5000)
+    setTimeout(()=>{
+        console.log("prajakat")
+    },6000)
+
+</script>
+</html>

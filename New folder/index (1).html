@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Form Creation</title>
+    <link rel="stylesheet" href="./style (1).css" />
+  </head>
+  <body class="col-sm-3,col-md-6,col-lg-9">
+    <form name="myForm">
+      <!-- Heading of the Document -->
+      <h1>‼️  Form Student !!</h1>
+    
+      <table>
+        <tr>
+       
+        <td><label>Enter Your Id :</label></td>
+        <td><input type="number" id="userId" placeholder="ID"/></td>
+       
+        <td><label>Enter Your Class :</label></td>
+        <td><input type="number" id="userClass" placeholder="Class" /></td>
+        </tr>
+        <tr>
+      
+        <td><label>Enter Your  First Name :</label></td>
+        <td><input type="username" id="userName" placeholder="First Name"/></td>
+      
+        <td><label>Enter Your Last Name :</label></td>
+        <td><input type="text" id="userlName" placeholder="Last Name"/></td>
+        </tr>
+    
+        <td><label>Enter Your Email Address:</label></td>
+        <td><input type="email" id="userMail" placeholder="Email"/></td>
+  
+        <td><label>Enter The Password:</label></td>
+        <td><input type="password" id="userPassword" placeholder="Password"/></td>
+        <tr></tr>
+      
+        <td><label>Enter Your Birth Date:</label></td>
+        <td><input type="date" id="userbDate" placeholder="Birth Date"/></td>
+      
+        <td><label>Enter Your Address:</label></td>
+        <td><input type="address" id="userAddress" placeholder="Address"/></td>
+        <tr></tr>
+   
+      </table>
+    </form>
+
+    <br />
+    <div class="btn">
+    <button onclick="displayTable()" class="tbBtn">submit</button>
+    <br>
+    <button onclick="reset()" class="tbBtn1">Reset</button>
+    <br>
+    <button onclick="deleteR()" class="tbBtn2">Delete</button>
+  </div>
+    <br />
+    <br />
+
+    <table>
+      <thead>
+        <tr>
+      
+          <th>id</th>
+          <th>class</th>
+          <th>Name</th>
+          <th>last name</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>birth Date</th>
+          <th>Address</th>
+    
+        </tr>
+      </thead>
+
+      <tbody id="tableData">
+        <tr></tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+   
+
+    <script src="./script.js"></script>
+    <!-- <script src="./scriptTwo.js"></script> -->
+  </body>
+</html>

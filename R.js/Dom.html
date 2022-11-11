@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="pink">
+    <div id="p">
+        <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatum cupiditate odio adipisci ducimus
+            quidem sequi nihil saepe, excepturi vitae laborum, ea dolorem quae quibusdam, doloribus facere ullam aut
+            iure.</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas velit expedita a nostrum! Architecto eligendi,
+            delectus eum tempore in dignissimos ipsum corporis deserunt doloribus dolores quas nesciunt ratione quia
+            consectetur?
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi beatae, amet neque cum iure placeat sunt
+            recusandae aliquid quam aspernatur voluptatem repudiandae similique velit a id dolorem est vel sit.</p>
+    </div>
+    <button onclick="myfunction()">Login</button>
+    <button onclick="color()">change</button>
+    <button onclick="changeColor('blue');">blue</button>
+    <button onclick="changeColor('purple');">purple</button>
+
+    <script>
+        function myfunction(){
+            let element=document.getElementById("p")
+            element.getElementsByTagName("p")[2].style.fontFamily="Bahnschrift SemiBold";
+            element.getElementsByTagName("p")[2].style.fontSize="32px";
+
+
+
+            
+        }
+        function color(){
+            let element2=document.getElementById("p")
+            element2.getElementsByTagName("p")[1].style.color="red";
+        }
+        function changeColor(newcolor){
+            let element=document.getElementById("p1");
+            element.style.color=newcolor;
+            element.getElementsByTagName("p1").style.fontFamily="Bahnschrift SemiBold";
+
+        }
+        
+    </script>
+ 
+
+
+    
+</body>
+
+</html>

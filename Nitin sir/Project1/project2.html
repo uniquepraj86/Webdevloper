@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            border: 1px solid black;
+            height: 1350px;
+            padding: 20px;
+            margin: 20px;
+            row-gap: 50px;
+            column-gap: 10px;
+            
+        }
+
+        .block1 {
+            display: grid;
+            grid-template-columns: 1fr;
+            border: 2px solid black;
+            height: 300px;
+            width: 300px;
+            align-items: center;
+            box-shadow: 1px 1px 1px 1px gray;
+
+        }
+
+        .card1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border: 1px solid black;
+            height: 300px;
+            width: 900px;
+            background-color: rgb(99, 133, 172);
+        }
+
+        .card2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            margin: 50px;
+            box-shadow: 1px 1px 1px 1px gray;
+
+        }
+
+        .card3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            margin: 50px;
+            box-shadow: 1px 1px 1px 1px gray;
+        }
+
+        .card4 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            margin: 50px;
+            box-shadow: 1px 1px 1px 1px gray;
+        }
+        .container1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            width: 100%;
+
+        }
+        .block2{
+            text-align: center;
+            color: red;
+            size: 80px;
+            border: 1px solid black;
+            background-color:rgb(85, 132, 148);
+            box-shadow: 1px 1px 1px 1px rgb(128, 70, 70);
+        }
+        .container2{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            border: 1px solid black;
+            height: 300px;
+           
+        }
+        .block3{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            border: 1px solid black;
+            height: 250px;
+            margin: 20px;
+            
+        }
+        .box1
+        {
+          display: grid;
+          border: 1px solid black;
+          height: 224px;
+          margin: 10px;
+          box-shadow: 1px 1px 1px 1px rgb(75, 68, 146);
+        }
+       
+        .box2
+        {
+          display: grid;
+          grid-template-columns: 1fr;
+          border: 1px solid black;
+          height: 224px;
+          margin: 10px;
+          background-color:rgb(85, 97, 109);
+          box-shadow: 2px 1px 1px 1px rgb(38, 53, 141);
+        }
+        .con{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            gap: 10px;
+            padding: 10px;
+        }
+        .box3
+        {
+          display: grid;
+          grid-template-columns: 1fr;
+          border: 1px solid black;
+          height: 224px;
+          margin: 10px;
+          background-color: white;
+          box-shadow: 1px 1px 1px 1px rgb(20, 53, 126);
+        }
+        .om
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 10px;
+            box-shadow: 1px 1px 1px 1px rgb(20, 53, 126);
+        }
+        .block4{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            border: 1px solid black;
+            background-color: rgb(148, 165, 165);
+            box-shadow: 1px 1px 1px 1px rgb(20, 53, 126);
+            
+
+        }
+        .bio{
+            display: grid;
+            grid-template-columns: 1fr;
+             padding: 10px;
+             text-overflow: 20px;
+             
+             
+              
+        }
+        .inf{
+            display: grid;
+            grid-template-columns: 1fr;
+            
+            background-color: rgb(144, 168, 168);
+        }
+        .inf1{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .skill{
+            display: grid;
+            grid-template-columns: 1fr;
+            box-shadow: px 1px 1px 1px white;
+        }
+           
+      
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="block1">
+
+            <img src="./sunset1.jpg" height="300px" width="300px">
+        </div>
+        <div class="card1">
+            <div class="card2">
+                <img src="./moon1.jpg" width="200px" height="200px">
+            </div>
+            <div class="card3">
+                <img src="./nature.jpg" height="200px" width="200px">
+            </div>
+            <div class="card4">
+                <img src="./moon in night.jpg" width="200px" height="200px">
+            </div>
+        </div>
+        <div class="container1">
+            <div class="block2">
+                <h1>Paintings</h1>
+               <marquee>
+                <img src="./paint1.jpg" height="160px" width="160px">
+                <img src="./paint2.jpg" height="160px" width="160px">
+                <img src="./paint3.jpg" height="160px" width="160px">
+                <img src="./paint4.jpg" height="160px" width="160px">
+                <img src="./paint5.jpg" height="160px" width="160px">
+               </marquee>
+            </div>
+        </div>
+    <div class="container2">
+        <div class="block3">
+            <div class="box1">
+                <div class="cards1">
+                    <img src="./peocock.jpg" height="110px" width="130">
+                    <img src="./sparrow.jpg" height="110px" width="130px">
+                </div>
+                <div class="cards2">
+                    <img src="./Spa.jpg" height="110px" width="130px">
+                    <img src="./humming.jpg" height="110px" width="135px">
+                </div>
+               
+            </div>
+            <div class="box2">
+               <center><h3>Contact</h3>
+               <div class="con">
+                <input type="text" id="First" placeholder="First" >
+                <input type="text" id="middle" placeholder="Middle">
+                <input type="text" id="last" placeholder="Last">
+                <input type="user" id="user"placeholder="Email" >
+                <input type="password" id="pass" placeholder="Passward">
+                <input type="number" id="pass"placeholder="Number">
+                   <center></center><button>Submit
+            </div>
+            </div>
+            <div class="box3">
+                <div class="om">
+                <img src="./OM.jpg" height="170px" width="120px">
+                
+                <h2>Information  Name: <br>Class: <br>Addr: <br> Date:</h2>
+               <center> <h3>OM</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="block4">
+            <div class="bio">
+                <img src="./profile pic.jpg" height="240px">
+                <center><h1>Unique</h1></div>
+                <div class="inf"> 
+                    <h3>Company Name <br> JAVA Devloper </h3>
+            
+             <div class="inf1"> 
+                <h4>location:</h4>
+                <h4>Pincode:</h4>
+                <h4>Mobile No:</h4>
+                <h4>Duration:</h4>
+                <h4>Salary:</h4>
+             </div class="Skill">
+            <h3>Skill:
+                <button>HTML</button>
+                <button>CSS</button>
+                <button>JAVA</button>
+                <button>REAT</button>
+                
+            </h3> 
+        
+        </div>
+     
+</body>
+
+</html>

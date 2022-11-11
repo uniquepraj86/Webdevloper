@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>closer</title>
+</head>
+<body>
+    <!--await 
+        If a promice method is pass to an await expression,it waits for the promise to be
+    fullfilled and return the fullfilled value -->
+    <!-- then
+    the then() method returns a promise.It take up to arguments:callback function 
+      for the success and failure cases of the promise -->
+      <!-- Asynchronus code allows the program to be executed immediately where the 
+        synchronus code will block further execution of the remaining code until it finishes -->
+    <script>
+        function outer()
+        {
+            let counter = 0
+            function inner()
+            {
+                counter++
+                console.log(counter)
+            }
+            return inner
+        }
+        const fn = outer()
+        fn();
+        fn();
+        fn();
+        fn();
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+1.static public void main(string args[])
+2.public statics void main(string array[])
+3.public statics void main(string...args)
+
+
+
+
+
+
+control code statement
+1}
+   desicion making
+     I]
+        if else statement
+         switch stmy
+     II}
+         for loop
+         while loop
+         do while
+         enhance for loop
+     III]
+      breaking 
+      break 
+       continuous
+
+1}if else stmt
+    

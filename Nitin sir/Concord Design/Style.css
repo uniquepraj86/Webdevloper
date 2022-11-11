@@ -1,0 +1,40 @@
+
+@media only screen and (max-width:600px){
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card1{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}   
+.card2{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}   
+.card3{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}   
+.card4{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}   
+}
+@media only screen and (max-width:600px) and (max-width:1024px){
+    
+    body{
+        
+        background-color: red ;
+    }
+}
+@media only screen and (max-width:1024px){
+    body{
+        background-color: rgb(195, 187, 207) ;
+    }
+}

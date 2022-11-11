@@ -1,0 +1,693 @@
+
+* {
+  font-style: Inter, sans-serif;
+  margin: 0;
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px, 0.2px, 0px, 0px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  font-size: 20px;
+}
+
+#heading1 {
+  color: rgba(23, 39, 52, .5);
+}
+
+#heading2 {
+  background-color: #06c;
+  color: white;
+  height: 35px;
+  width: 150px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+
+/* end of nav */
+.btnfirst {
+  border: none;
+  margin-left: 1100px;
+  width: 130px;
+  margin-top: -20px;
+  border-radius: 100px;
+  background-color: rgb(60, 79, 254);
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  justify-content: center;
+}
+
+.span {
+  color: rgb(196, 194, 194);
+}
+.section1 {
+  margin: 10px;
+  padding: 10px;
+}
+.section2 {
+  margin-top: 10px;
+}
+.section3 .work {
+  margin-top: 50px;
+  padding: 10px;
+}
+.logo {
+  margin-top: 50px;
+}
+.section4 {
+  background-color: #172734;
+  padding-bottom: 50px;
+}
+.section4 .text1 {
+  color: white;
+}
+.text1 {
+  margin: 30px;
+  margin-left: 150px;
+}
+.text2 {
+  margin-left: 150px;
+  color: gray;
+}
+.FMR {
+  background-color: hsla(0, 0%, 100%, 0.1);
+  color: white;
+  position: relative;
+  top: 10px;
+  display: flex;
+  margin-left: 40px;
+  border-radius: 30px;
+  padding: 10px;
+}
+.FMR1 {
+  display: flex;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  color: white;
+  position: relative;
+  top: 20px;
+  border-radius: 30px;
+  margin-left: 40px;
+  padding: 10px;
+}
+.FMR2 {
+  display: flex;
+  border-radius: 30px;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  color: white;
+  position: relative;
+  top: 30px;
+  margin-left: 40px;
+  padding: 10px;
+}
+.FMR3 {
+  background-color: hsla(0, 1%, 56%, 0.1);
+  color: white;
+  position: relative;
+  top: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  margin-left: 40px;
+  display: flex;
+}
+.text3 {
+  margin-top: 20px;
+}
+.whatdowedo li {
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  color: rgb(188, 185, 185);
+  display: flex;
+  position: relative;
+}
+.list1 li {
+  list-style: none;
+  color: rgb(185, 181, 181);
+}
+.list1 {
+  margin-top: 30px;
+}
+.box {
+  background-color: rgb(91, 91, 251);
+  width: 700px;
+  position: relative;
+  height: 200px;
+  margin-top: 500px;
+  right: 300px;
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.text5 {
+  margin-top: 30px;
+}
+.text6 {
+  position: relative;
+  top: -30px;
+  right: 60px;
+  color: rgb(211, 211, 251);
+}
+.section5 {
+  background-color: whitesmoke;
+  margin-top: 10px;
+  padding-bottom: 20px;
+ 
+}
+.section5 h4 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.section5 h3 {
+  color: gray;
+  text-align: center;
+  margin-left: 40px;
+}
+.FMR4 {
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 10px;
+  display: flex;
+  margin-left: 40px;
+  border-radius: 30px;
+  padding: 10px;
+}
+.FMR5 {
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 20px;
+  display: flex;
+  margin-left: 40px;
+  border-radius: 30px;
+  padding: 10px;
+}
+.FMR6 {
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 30px;
+  display: flex;
+  margin-left: 40px;
+  border-radius: 30px;
+  padding: 10px;
+}
+.section5 .text4 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.FMR7 {
+  position: relative;
+  left: 150px;
+  top: 60px;
+  z-index: 1;
+}
+.FMR8 {
+  position: relative;
+  top: 40px;
+}
+.FMR9 {
+  position: relative;
+  top: 40px;
+  right: 150px;
+}
+.section6 {
+  background-color: whitesmoke;
+  padding-bottom: 150px;
+}
+.HWW1 {
+  position: relative;
+}
+.HWW2 {
+  background-color: white;
+  position: relative;
+  top: 30px;
+  padding: 9px;
+  border-radius: 40px;
+  display: flex;
+}
+.dot {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  top: 15px;
+}
+
+.question {
+  position: relative;
+  top: 5px;
+  margin-left: 10px;
+  padding: 10px;
+}
+#dropdowncontainer {
+  background-color: #262626;
+  padding-left: 8px;
+}
+.HWW3 {
+  background-color: white;
+  position: relative;
+  padding: 9px;
+
+  top: 40px;
+  border-radius: 40px;
+  display: flex;
+}
+.HWW4 {
+  background-color: white;
+  position: relative;
+  top: 50px;
+  padding: 9px;
+  border-radius: 40px;
+  display: flex;
+}
+.HWW5 {
+  background-color: white;
+  position: relative;
+  top: 60px;
+  border-radius: 40px;
+  display: flex;
+  padding: 9px;
+}
+.btn {
+  position: relative;
+  top: -20px;
+  width: 100px;
+}
+.dropdownbtn {
+  justify-content: flex-end;
+  position: relative;
+}
+.HWW6 {
+  background-color: white;
+  position: relative;
+  top: 70px;
+  border-radius: 40px;
+  padding: 9px;
+  display: flex;
+}
+.HWW7 {
+  padding: 9px;
+  background-color: white;
+  position: relative;
+  top: 80px;
+  border-radius: 40px;
+  display: flex;
+}
+.HWW8 {
+  padding: 9px;
+  background-color: white;
+  position: relative;
+  top: 90px;
+  border-radius: 40px;
+  display: flex;
+}
+.HWW9 {
+  background-color: white;
+  position: relative;
+  top: 100px;
+  border-radius: 40px;
+  display: flex;
+  padding: 9px;
+}
+.HWW10 {
+  padding: 9px;
+  background-color: white;
+  position: relative;
+  top: 110px;
+  border-radius: 40px;
+  display: flex;
+}
+.HWW11 {
+  padding: 9px;
+  background-color: white;
+  position: relative;
+  top: 120px;
+  border-radius: 40px;
+  display: flex;
+}
+.HWW12 {
+  padding: 9px;
+  background-color: white;
+  position: relative;
+  top: 130px;
+  border-radius: 40px;
+  display: flex;
+}
+.HWW13 {
+  padding: 9px;
+  background-color: white;
+  position: relative;
+  top: 140px;
+  border-radius: 40px;
+  display: flex;
+}
+
+.font {
+  background-color: rgb(4, 33, 34);
+  position: relative;
+  top: -500px;
+  z-index: -1;
+  height: 700px;
+}
+.box1 {
+  background-color: rgb(4, 33, 34);
+  width: 500px;
+  height: 500px;
+  top: -500px;
+  position: relative;
+  
+}
+.box2 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 500px;
+  border-radius: 40px;
+  background-color: #153237;
+  border: 1px solid white;
+  margin-left: 300px;
+}
+.doller {
+  color: white;
+}
+.money {
+  font-size: 58px;
+  color: white;
+  margin-left: 30px;
+  font-weight: 500;
+}
+.money1 {
+  color: white;
+  margin-left: 30px;
+}
+.lastbox li {
+  list-style: none;
+  color: rgb(14, 230, 168);
+  font-size: 20px;
+  font-weight: 10px;
+}
+.button {
+  background-color: white;
+  width: 420px;
+  height: 70px;
+  margin-left: 30px;
+  border-radius: 50px;
+}
+.box3 {
+  background-color: rgb(4, 33, 34);
+}
+.box4 {
+  background-color: rgb(4, 33, 34);
+  position: relative;
+  top: -10px;
+}
+.img2 {
+  border-radius: 40px;
+  height: 700px;
+  width: 1200px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+.endimg {
+  margin-top: 50px;
+  border-radius: 40px;
+  z-index: 1;
+  width: 700px;
+  height: 700px;
+}
+.textt {
+  color: white;
+  margin-top: 550px;
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .text {
+    display: none;
+  }
+  .btnfirst {
+    border: none;
+    margin-left: 600px;
+    width: auto;
+    margin-top: 50px;
+
+    background-color: rgb(60, 79, 254);
+    color: white;
+
+    justify-content: center;
+  }
+  .section1 h1 {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .img1 {
+    border-radius: 10px;
+    width: 650px;
+    height: 500px;
+    margin-left: 10px;
+  }
+  .work {
+    font-size: 70px;
+    margin-left: 30px;
+    padding: 20px;
+  }
+  .logo {
+    margin-left: 30px;
+    padding: 25px;
+    justify-content: space-around;
+  }
+  .section4 {
+    width: auto;
+  }
+  .section5 .box {
+    margin-top: 780px;
+    position: relative;
+    border-top-left-radius: 10px;
+  }
+  .section5 img {
+    position: relative;
+    left: 10px;
+  }
+  .section5 {
+    min-width: 600px;
+  }
+  .section5 .arrow {
+    display: none;
+  }
+  .section5 .FMR4 {
+    position: relative;
+    margin-top: 220px;
+
+    margin-left: -200px;
+    min-width: 550px;
+  }
+  .FMR5 {
+    margin-left: -200px;
+    min-width: 550px;
+  }
+  .FMR6 {
+    margin-left: -200px;
+    min-width: 550px;
+  }
+  .textbox {
+    text-align: center;
+  }
+  .section5 .textbox {
+    text-align: center;
+    font: 25px sans-serif;
+    position: relative;
+    left: 150px;
+  }
+  .section6 .dv {
+    margin-left: -200px;
+    min-width: 550px;
+  }
+  .section7 .endimg {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 30px;
+
+    z-index: 1;
+  }
+  .section7 .font {
+    position: relative;
+    top: -300px;
+    min-width: 700px;
+    z-index: -1;
+  }
+  .section7 .textt {
+    margin-top: 350px;
+  }
+  .section7 .box1 {
+    min-width: 700px;
+  }
+  .section7 .box2 {
+    margin-left: -400px;
+  }
+  .section6 .dot {
+    position: relative;
+    justify-content: end;
+    display: flex;
+    top: 15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .text {
+    display: none;
+  }
+  .btnfirst {
+    border: none;
+    margin-left: 600px;
+    width: auto;
+    margin-top: 50px;
+
+    background-color: rgb(60, 79, 254);
+    color: white;
+
+    justify-content: center;
+  }
+  .section1 h1 {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .img1 {
+    border-radius: 10px;
+    width: 650px;
+    height: 500px;
+    margin-left: 10px;
+  }
+  .work {
+    font-size: 70px;
+    margin-left: 30px;
+    padding: 20px;
+  }
+  .logo {
+    margin-left: 30px;
+    padding: 25px;
+    justify-content: space-around;
+  }
+  .section4 {
+    width: auto;
+  }
+  .section5 {
+    min-width: 900px;
+  }
+  .section5 .box {
+    margin-top: 780px;
+    position: relative;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    right: 530px;
+  }
+  .section5 img {
+    position: relative;
+    left: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .section5 {
+    min-width: 900px;
+  }
+  .section5 .arrow {
+    display: none;
+  }
+  .section5 .FMR4 {
+    position: relative;
+    margin-top: 220px;
+
+    margin-left: -200px;
+    min-width: 550px;
+  }
+  .FMR5 {
+    margin-left: -200px;
+    min-width: 550px;
+  }
+  .FMR6 {
+    margin-left: -200px;
+    min-width: 550px;
+  }
+  .textbox {
+    text-align: center;
+  }
+  .section5 .textbox {
+    text-align: center;
+    font: 25px sans-serif;
+    position: relative;
+  }
+  .section6 {
+    min-width: 900px;
+  }
+  .section6 .dv {
+    margin-left: -200px;
+    min-width: 550px;
+  }
+  .section7 .endimg {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 30px;
+
+    z-index: 1;
+  }
+  .section7 .font {
+    position: relative;
+    top: -300px;
+    min-width: 900px;
+    z-index: -1;
+  }
+  .section7 .textt {
+    margin-top: 350px;
+  }
+  .section7 .box1 {
+    min-width: 900px;
+  }
+  .section7 .box2 {
+    margin-left: -400px;
+  }
+  .section6 .dot {
+    position: relative;
+    justify-content: end;
+    display: flex;
+    top: 15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {
+    background: orange;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}

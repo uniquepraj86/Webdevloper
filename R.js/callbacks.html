@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callbacks</title>
+</head>
+<body>
+    <script>
+        function xyz(name,amt,city){
+            alert('codkul'+name+'Enter amount'+amt+'city'+city);
+        }
+        function string(callback){
+            var name = prompt('Enter your name:');
+            var amt = prompt('Enter your Amount:');
+            var city = prompt('Enter your city:');
+            callback(name,amt,city);
+           
+        }
+        string (xyz);
+    </script>
+</body>
+</html>

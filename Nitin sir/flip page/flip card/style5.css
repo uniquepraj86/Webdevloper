@@ -1,0 +1,86 @@
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+}
+.card{
+    
+    height: 340px;
+    width: 250px;    
+    position: absolute;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+}
+.card1,.card
+{
+    display: grid;
+justify-content: center;
+align-items: center;
+position: absolute;
+height: 100%;
+width: 100%;
+}
+.card1{
+    height: 500px;
+    width: 400px;
+  background: linear-gradient(#08aeea,#2af598);
+    border-radius: 20px;
+    z-index: 2;
+
+
+}
+.card2{
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(#f8da61,#ff5acd);
+    border-radius: 20px;
+   border-color: black;
+   z-index: 1;
+   transform: rotate(180deg);
+}
+.img1
+{
+    margin: 70px;
+   
+}
+.img2
+{
+    margin: 70px;
+   
+}
+
+
+.container:hover .card{
+    transform: rotate(180deg);
+}
+
+.container{
+    perspective: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

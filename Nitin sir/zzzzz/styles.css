@@ -1,0 +1,43 @@
+  nav ul li
+     {
+        list-style: none;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px o.2px 0.2px 0.2px;
+        width: 70;
+    }
+    nav ul li a {
+        text-decoration: none;
+    }
+    ul{
+       display: flex; 
+       gap: 10px;
+    }
+    nav ul img{
+            border-radius: 50%;
+    }
+    .menus{
+        margin-right: 100px;
+    
+    }
+    .section{
+        display: flex;
+        gap: 100px;
+        margin: 9px;  
+    
+    }    
+    p{
+        border: 1px;
+        background-color: white;
+        align-items: center;
+       
+    }
+.text
+{
+text-align: center;
+
+
+}

@@ -1,0 +1,9 @@
+.cards{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    border: 100px solid rgb(3, 3, 3);
+    align-items: center;
+    margin: 50px;
+    
+}

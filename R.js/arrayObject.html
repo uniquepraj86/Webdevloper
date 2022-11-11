@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="submit"> submit</button>
+    <script>
+        {
+            var m = ['abc', 1, 2, 3, 'xyz'];
+            console.log(m);
+
+
+        }
+        {
+            console.log(m);
+            m.push("javascript");
+            m.pop('xyz');
+        }
+        // ushift,shift
+        {
+            let x = [23, 34, 56, 78];
+            console.log(x);
+            x.unshift(23);
+
+            x.shift(23);
+        }
+
+        let obj = {
+            name: "prajkta",
+            Address: "Kuthrud",
+            Age: "24"
+
+        }
+        console.log(obj)
+        // find
+        {
+            const a = [1, 2, 3, 4, 5, 6, 1, 1];
+            const find = a.find(element => element < 10);
+            console.log(find);
+            console.log(a.indexOf(1))
+        }
+        {
+            // fyunction disply onclick
+            let a = "hellow world"
+            let submit = document.getElementById("submit");
+            submit = addEventListener('click', displaydata);
+            function displaydata() {
+                document.write("hellow World ");
+                // console.log(a);
+            }
+
+        }
+        // callback
+        {
+            function abc(id, name, addr) {
+                alert('1', +id + 'codkul', +name + 'pune', +addr);
+            }
+            function string() {
+                var name = prompt('Enter your id:');
+                var name = prompt('Enter your name:');
+                var name = prompt('Enter your addr:');
+                callback(name,amt,city);
+            }
+            string(abc);
+        }
+        // closer
+        {
+            function outer() {
+                let counter = 0
+                function inner() {
+                    counter++
+                    console.log(counter)
+                }
+                return inner
+            }
+            const fn = outer()
+            fn();
+            fn();
+            fn();
+            fn();
+
+        }
+        // async
+        {
+            const getData = async () => {
+                var data = "Hello Codkul";
+                return data;
+            }
+            getData().then(data => console.log(data));
+        }
+
+
+    </script>
+</body>
+
+</html>

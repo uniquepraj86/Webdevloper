@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .p{
+       
+        background: conic-gradient(red,yellow,blue,pink);
+        height: 100px;
+        width: 100px;
+        align-items: center;
+        transform: skew(20deg);
+        margin: 40px;
+        border-radius: 20px;
+        
+        
+    }
+    .r{
+      
+        background:repeating-linear-gradient(to top left, yellow,rgb(236, 6, 45));
+        height: 100px;
+        width: 100px;
+       
+        gap: 10px;
+        margin: 100px;
+        border-radius: 30px;
+        transform: skew(10deg, 10deg);
+        
+    }
+    .a{
+       /* background:-webkit-repeating-linear-gradient(rgb(224, 12, 48),blue) ; */
+        height: 200px;
+        width: 200px;
+       background-image: url(./Assets/logo.svg);
+       background-repeat: no-repeat;
+        gap: 10px;
+        margin: 100px;
+        border-radius: 30px;
+        transform: skew(-0.06turn, 18deg);
+       
+    }
+
+</style>
+<body>
+    <div class="p"></div>
+    <div class="r"></div>
+    <div class="a" ></div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Concord.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="">
+            <img
+              src="	https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/625452457cc77f7f28839dd9_logo.svg"
+              alt=""
+          /></a>
+        </li>
+        <li>Concord Studio®</li>
+        <li id="menuitem2">Digital agency, reinvented</li>
+      </ul>
+      <ul>
+        <li>
+          <button>Get Started</button>
+        </li>
+      </ul>
+    </nav>
+    <!-- Nav End -->
+    <!-- section1 -->
+    <div class="section1">
+      <h1>Design studio with a fixed fee.</h1>
+      <div class="heading">
+        <h1 id="heading">We replace unreliable freelancers and</h1>
+        <h1 id="heading">expensive agencies for one flat monthly fee.</h1>
+      </div>
+      <div>
+        <img
+          src="	https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6254690110ab472878fbda60_image.jpg"
+          width="1100"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="section2">
+        <div class="column1">
+            <h1>Who do we work with?</h1>
+            <h1 id="heading1">
+                Our services have been trusted
+            </h1>
+            <h1 id="heading1">
+                by 100+ more companies.
+            </h1>
+        </div>
+        <div class="company">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b83aa8c8857324e3e_Group%20291.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b96c5bc07f3f11c1f_Group%20289.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b96c5bc07f3f11c1f_Group%20289.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b83aa8c8857324e3e_Group%20291.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b96c5bc07f3f11c1f_Group%20289.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b96c5bc07f3f11c1f_Group%20289.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b83aa8c8857324e3e_Group%20291.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b96c5bc07f3f11c1f_Group%20289.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b96c5bc07f3f11c1f_Group%20289.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b83aa8c8857324e3e_Group%20291.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b96c5bc07f3f11c1f_Group%20289.png" alt="">
+            <img src="https://uploads-ssl.webflow.com/62517a5448ad13673bbfeb7f/6251910b96c5bc07f3f11c1f_Group%20289.png" alt="">
+        </div>
+    </div>
+  </body>
+</html>
+ 88  
+HTML/Css/Concord.css
+@@ -0,0 +1,88 @@
+*{
+    font-family: Graphik,sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0.2px 0px 0px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+}
+#menuitem2{
+    color: rgba(23,39,52,.5);
+}
+nav ul li button{
+    background-color: #06c;
+    color: white;
+    height: 35px;
+    border-radius: 20px;
+    width: 120px;
+    border: none;
+    margin-right: 40px;
+}
+.section1{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  padding-left: 100px;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section1 h1{
+    line-height: 1px;
+    font-size:60px ;
+} 
+#heading{
+    color: rgba(23,39,52,.5);
+}
+.section1 img{
+    border-radius: 40px;
+}
+.section2{
+    background-color: #565757;
+    padding-left: 100px;    
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+    grid-template-columns:1fr 1fr 1fr;
+    /* width: 100%; */
+    overflow: hidden;
+
+}
+.column1{
+    width: 100%;
+  }
+
+#heading1{
+    color: rgb(199, 194, 194);
+}
+.company img{
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+
+}
+.company{
+    overflow: hidden;
+    grid-column-start: 2 ;
+    grid-column-end:4;
+    display: grid;
+    width: 70%;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} 

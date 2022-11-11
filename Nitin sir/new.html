@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link src="/dist/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body> 
+    <div class=" border rounded shadow" >  
+      <section class="border grid grid-cols-3" id="card">
+
+      </section>
+    </div>
+    <script>
+      const data = [
+        {
+          title: "title1",
+          discription: "desc1",
+          output: 2,
+        },
+        {
+          title: "title2",
+          discription: "desc2",
+          output: 2,
+        },
+        {
+          title: "title3",
+          discription: "desc3",
+          output: 2,
+        },
+        {
+          title: "title4",
+          discription: "desc4",
+          output: 2,
+        },
+      ];
+      data.forEach((res) => {
+        let card = document.createElement("div");
+        let name = document.createTextNode("name" + res.title + ",");
+        card.appendChild(name);
+
+        let conatainer = document.querySelector("#card");
+        conatainer.appendChild(card);
+      });
+
+      //   const container = document.getElementById("card");
+      //   data.forEach((result, idx) => {
+      //     const card = document.createElement("div");
+      //     card.classList = "card-body";
+
+      //     const content = `
+      //         <div class="cards" id="heading-${idx}">
+      //             <h1>${result.title}</h1>
+
+      //             </div>
+      //         `;
+      //   });
+    </script>
+  </body>
+</html>

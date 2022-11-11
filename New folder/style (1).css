@@ -1,0 +1,84 @@
+table {
+  align-items: center;
+  width: 100%;
+  /* background-color: rgba(5, 3, 11, 0.105); */
+  text-align: left;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h1 {
+    display: block;
+  text-shadow: 20% salmon;
+  border-style: double;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background: rgba(8, 7, 8, 0.555);
+  color: white;
+}
+
+
+
+
+th {
+  font-weight: bold;
+  text-transform: uppercase;
+  /* background-color: rgba(5, 3, 11, 0.105); */
+  color: rgb(9, 6, 13);
+}
+
+
+
+.tbBtn {
+  margin-left: 46%;
+  text-align: center;
+  /* background: rgba(8, 7, 8, 0.555); */
+  color: rgb(20, 19, 19);
+  font-size: x-large;
+  text-transform: uppercase;
+}
+.tbBtn1 {
+  /* margin-left: 46%; */
+  text-align: center;
+  /* background: rgba(8, 7, 8, 0.555); */
+  color: rgb(8, 8, 8);
+  font-size: x-large;
+  text-transform: uppercase;
+}
+.tbBtn2 {
+  margin-left: 46%;
+  text-align: center;
+  /* background: rgba(8, 7, 8, 0.555); */
+  color: rgb(8, 8, 8);
+  font-size: x-large;
+  text-transform: uppercase;
+}
+
+/* tr {
+  size: 1px;
+} */
+
+/* .gender {
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    /* background-color: rgba(5, 3, 11, 0.105); */
+    /* color: rgb(9, 6, 13);
+    border: 1px solid brown; */
+/* } */
+
+/* .sGender {
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(5, 3, 11, 0.105);
+    color: rgb(9, 6, 13);
+    border: 1px solid brown;
+
+} */ 
+
+
+.bDate{
+    font-size: large;
+}

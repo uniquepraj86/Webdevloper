@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibile/Hidden</title>
+</head>
+<style>
+#s{
+    border: 1px solid rgb(227, 81, 193);
+    border-radius: 20px;
+    /* margin: 100px; */
+    text-align: center;
+    width: 200px;
+    background-color: lightgreen;
+    margin-left: 400px;
+    margin-top: 50px;
+
+}
+.vh{
+    margin-left: 450px;
+    margin-top: 50px;
+    /* color: rgb(252, 249, 249);
+    background-color: black; */
+}
+#v{ color: white;
+    background-color: rgb(4, 4, 4);
+}
+#h{
+    color: white;
+    background-color: rgb(1, 2, 2);
+    box-shadow: 10px,10px red;
+}
+</style>
+
+<body>
+    <div id="color">
+       
+        <p>codkul</p>
+        <button onclick="changeColor('blue');">blue</button>
+        <button onclick="changeColor('green');">green</button>
+    
+    </div>
+     <!-- <div id="s">
+        <h1>Unique Praj</h1>
+    </div> -->
+    <!-- <div class="vh">
+    <button id="v" onclick="changeColor('visible');">Visible</button>
+     <button id="h"  onclick="changeColor('hidden');">Hidden</button>
+    </div> -->
+    <!-- <button id="v" onclick="setTimeout(display(),3000);">Display</button> -->
+    <script>
+        function changeColor(p) {
+            const o = document.getElementById('color')
+            o.style.color = p;
+        }
+        // function changeColor(d){
+        //     let element=document.getElementById("s")
+        //     element.style.visibility=d;
+        // }
+        // setTimeout(function(){
+        //     console.log("Name:Prajkta")
+        // },4000);
+        // setTimeout(()=>{
+        //     console.log("CodKul")
+        // },6000);
+        // setTimeout(()=>{
+        //     console.log("Arote")
+        // },1000);
+//         setTimeout(function(){
+//     document.write("Hello");    
+//     setTimeout(function(){document.write("Hello World")},3000);
+// },6000);
+// function display(){
+//     const s=document.getElementById("s");
+//     s.innerHTML="UniquePraj"
+// }
+    </script>
+
+</body>
+
+</html>

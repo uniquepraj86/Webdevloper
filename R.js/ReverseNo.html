@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse no</title>
+</head>
+<body>
+    <p>
+        test output
+        </p>
+        <p id = "output">
+        
+        </p>
+    <script>
+        function wordsReverser(string){
+		var arr = string.split("");
+    var output = [];
+    for(var i = arr.length - 1;  i >= 0; i--){
+    		output.push(arr[i]);
+    }
+  return output.join("");
+}
+document.getElementById("output").innerHTML = wordsReverser('New string, same results.');
+    </script>
+    <!-- <script>
+        
+        function wordsReverser(string){
+    return string.split('').reverse().join('');
+  }
+  console.log(wordsReverser('New string, same results.'));
+    </script> -->
+</body>
+</html>

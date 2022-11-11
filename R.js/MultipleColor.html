@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiColor</title>
+</head>
+<body>
+    <div id="color">
+       <p id="praj"> Praj</p>
+       <button onclick="ch1('blue')">blue</button>
+
+       <p id="arote"> Arote</p>
+       <button onclick="ch2('green')">green</button>
+
+       <p id="uni">UniquePraj</p>
+        <button onclick="ch3('green')">green</button>
+        <button onclick="ch3('red')">red</button>
+        <button onclick="ch3('orange')">orange</button>
+        <script>
+            function ch1(x){
+                const a=document.getElementById("praj");
+                a.style.color=x;
+            }
+            function ch2(y){
+                const a=document.getElementById("arote");
+                a.style.color=y;
+            }
+            function ch3(z){
+                const a=document.getElementById("uni");
+                a.style.color=z;
+            }
+
+
+
+
+        </script>
+    </div>
+    
+</body>
+</html>

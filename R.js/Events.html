@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="try">click here</button>
+    <h1 id="txt"></h1>
+    <img src="./moon1.jpg"  onmouseover="over(this)" onmouseout="out(this)"/>
+    <script>
+        document.getElementById("try").addEventListener('click',function(){
+            document.getElementById('txt').innerHTML="Hellow world";
+        });
+        function over(x){
+            x.style.height = "500px";
+            x.style.width = "500px";
+            x.style.border = "blue";
+        }
+        function out(y){
+            // y.style.backgroundColor = "pink";
+            x.style.height = "500px";
+            x.style.width = "500px";
+            y.style.border = "red";
+        }
+        
+    </script>
+</body>
+</html>
